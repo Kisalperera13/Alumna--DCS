@@ -1,0 +1,43 @@
+# Node.js / Express.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+
+# Client build output (if using Create React App or similar)
+/client/build/
+/client/node_modules/
+
+# Log files
+*.log
+logs/
+
+# Editor or IDE-specific files
+.vscode/
+.idea/
+
+# Dependency lock files
+yarn.lock
+package-lock.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Configuration files
+*.config.js
+
+# Ignore environment-specific files (e.g., .env.local, .env.development)
+.env.local
+.env.development
+.env.production
+
+# Ignore sensitive or secret files (e.g., keys, certificates)
+*.key
+*.pem
+*.cert
+
+# Ignore build and compiled files (e.g., .babelrc, .eslintrc)
+*.babelrc
+.eslintrc
