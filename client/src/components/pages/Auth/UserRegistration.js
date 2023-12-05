@@ -216,7 +216,6 @@ export default function SignUp() {
                             )}
                           />
                     </Grid>
-
                     <Grid item xs={4} sx={{ paddingTop: '20px' }}>
                     <TextField
                     required
