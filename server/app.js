@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors'); // Optional: Enable CORS if needed
-const userRoutes = require('./routes/userRoutes');
+const userRoutes = require('./routes/UserRoutes');
 const adminRoutes = require('./routes/AdminRoutes');
 
 const app = express();
